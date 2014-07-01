@@ -8,7 +8,7 @@
 <style>
   body {
     background-color: purple;
-    text-color: white;
+    color: white;
   }
 </style>
 </head>
