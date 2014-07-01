@@ -7,7 +7,7 @@
 <title>Hello World</title>
 <style>
   body {
-    background-color: pick;
+    background-color: pink;
   }
 </style>
 </head>
