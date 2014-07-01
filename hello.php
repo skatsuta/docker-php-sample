@@ -9,4 +9,5 @@ echo '<!DOCTYPE html>
 <body>
 <h1>Hello CAR!</h1>
 </body>
-</html>'
+</html>';
+
