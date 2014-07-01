@@ -12,7 +12,7 @@ RUN yum install -y httpd
 # PHP install
 RUN yum install -y php php-mysql
 
-# EXPOSE コマンドを使って、ポート8080を解放
+# EXPOSE コマンドを使って、ポート80を解放
 EXPOSE 80
 
 # ADD コマンドを使って、ホストOSからwarファイルを取得
@@ -20,5 +20,5 @@ EXPOSE 80
 
 # ENTORYPOINT コマンドを使って、コンテナ起動時に実行するコマンドを与える
 #ENTRYPOINT /etc/init.d/httpd start && /bin/bash
-ENTRYPOINT apachectl start && /bin/bash
+ENTRYPOINT service httpd start && /bin/bash
 
