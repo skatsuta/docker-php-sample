@@ -7,7 +7,8 @@
 <title>Hello World</title>
 <style>
   body {
-    background-color: pink;
+    background-color: purple;
+    text-color: white;
   }
 </style>
 </head>
