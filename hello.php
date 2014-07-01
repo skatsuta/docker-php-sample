@@ -1,4 +1,12 @@
 <?php
-echo "Hello World!";
-echo "Today is the day!!";
-//echo "Go Ahead!";
+
+echo '<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+</head>
+<body>
+<h1>Hello CAR!</h1>
+</body>
+</html>'
