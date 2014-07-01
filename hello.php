@@ -1,13 +1,18 @@
-<?php
+<?php $var = 'PHP'; ?>
 
-echo '<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title></title>
+<meta charset="UTF-8">
+<title>Hello World</title>
+<style>
+  body {
+    background-color: pick;
+  }
+</style>
 </head>
 <body>
-<h1>Hello World!</h1>
+<h1>Hello <?php echo $var; ?>!</h1>
 </body>
-</html>';
+</html>
 
