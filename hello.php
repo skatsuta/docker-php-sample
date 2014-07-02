@@ -1,4 +1,4 @@
-<?php $var = 'PHP'; ?>
+<?php $var = 'CAReward!'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
